@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sticky {
+    display: flex;
+    flex-basis: auto;
+    flex-shrink: 0;
+    position: fixed;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.75);;
+}
+.header .carousel-item{
+    height: 100vh !important;
+}
